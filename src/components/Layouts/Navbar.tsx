@@ -139,18 +139,18 @@ const Navbar: React.FC = () => {
             <ul>
               <li>
                 <i className="flaticon-pin"></i>
-                GROUND FLOOR , PLOT NO 251 ,<br /> UDYOG VIHAR PHASE 4 , SECTOR
-                18 ,<br />
-                GURUGRAM
+                Ground Floor, Plot No 251,<br></br> Udyog Vihar Phase 4, Sector
+                18,<br></br>
+                Gurugram
               </li>
 
               <li>
                 <i className="flaticon-email-1"></i>
                 <a
-                  href="mailto:SUPPORT@HKIMEDIA.COM
+                  href="mailto:Support@hkimedia.com
 "
                 >
-                  SUPPORT@HKIMEDIA.COM
+                  Support@hkimedia.com
                 </a>
                 {/* <a href="#">Skype: example</a> */}
               </li>

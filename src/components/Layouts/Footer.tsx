@@ -18,12 +18,13 @@ const Footer: React.FC = () => {
               <div className="single-widget">
                 <div className="logo">
                   <Link href="/">
-                    <Image
+                    {/* <Image
                       src="/img/white-logo.png"
                       alt="Image"
                       width={90}
                       height={33}
-                    />
+                    /> */}
+                    <h2 className="text-white mb-0">HKI Media</h2>
                   </Link>
                 </div>
 
@@ -76,13 +77,13 @@ const Footer: React.FC = () => {
                 <ul className="address">
                   <li>
                     <i className="flaticon-pin"></i>
-                    GROUND FLOOR , PLOT NO 251 , UDYOG VIHAR PHASE 4 , SECTOR 18
-                    , GURUGRAM
+                    Ground Floor, Plot No 251, Udyog Vihar Phase 4, Sector 18,
+                    Gurugram
                   </li>
                   <li>
                     <i className="flaticon-email-1"></i>
-                    <a href="mailto:SUPPORT@HKIMEDIA.COM">
-                      SUPPORT@HKIMEDIA.COM
+                    <a href="mailto:Support@hkimedia.com">
+                      Support@hkimedia.com
                     </a>
 
                     {/* <a href="#">Skype: example</a> */}
@@ -198,12 +199,7 @@ const Footer: React.FC = () => {
       <footer className="footer-bottom-area">
         <div className="container">
           <div className="copyright-wrap">
-            <p>
-              Copyright @{currentYear} Vivi. Designed By{" "}
-              <a href="https://envytheme.com/" target="blank">
-                EnvyTheme
-              </a>
-            </p>
+            <p>Copyright @{currentYear} HKI Media</p>
           </div>
         </div>
       </footer>

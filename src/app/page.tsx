@@ -1,20 +1,19 @@
-import HeroSlider from "../components/DefaultHome/HeroSlider";
-import About from "../components/DefaultHome/About";
-import VideoCreated from "../components/DefaultHome/VideoCreated";
-import WhatWeDo from "../components/DefaultHome/WhatWeDo";
-import Testimonials from "../components/Common/Testimonials";
-import AwardWinningMovies from "../components/Common/AwardWinningMovies";
-import GetInTouch from "../components/Common/GetInTouch";
-import UpcomingMovies from "../components/DefaultHome/UpcomingMovies";
-import ExclusiveShop from "../components/DefaultHome/ExclusiveShop";
-import TeamStyleOne from "../components/Common/TeamStyleOne";
-import LatestNews from "../components/DefaultHome/LatestNews";
-import Partners from "../components/Common/Partners";
+import MainBanner from "../../src/components/HomeThree/MainBanner";
+import About from "../../src/components/HomeThree/About";
+import VideoCreated from "../../src/components/HomeThree/VideoCreated";
+import Testimonials from "../../src/components/HomeThree/Testimonials";
+import UpcomingMovies from "../../src/components/HomeThree/UpcomingMovies";
+import WhatWeDo from "../../src/components/HomeThree/WhatWeDo";
+import TeamMember from "../../src/components/HomeThree/TeamMember";
+import ProductionProcess from "../../src/components/HomeThree/ProductionProcess";
+import LatestNews from "../../src/components/HomeThree/LatestNews";
+import Partners from "../../src/components/Common/Partners";
+import AwardWinningMovies from "../../src/components/HomeThree/AwardWinningMovies";
 
 export default function Home() {
   return (
     <>
-      <HeroSlider />
+      {/* <HeroSlider />
 
       <About />
 
@@ -36,7 +35,28 @@ export default function Home() {
 
       <Partners />
 
+      <LatestNews /> */}
+      <MainBanner />
+
+      <About />
+
+      <VideoCreated />
+
+      <Testimonials />
+
+      <UpcomingMovies />
+
+      <WhatWeDo />
+
+      <TeamMember />
+
+      <ProductionProcess />
+
+      <AwardWinningMovies />
+
       <LatestNews />
+
+      <Partners />
     </>
   );
 }

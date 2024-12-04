@@ -21,14 +21,15 @@ const ContactForm: React.FC = () => {
                 <li>
                   <i className="flaticon-email-1"></i>
                   Email:
-                  <a href="mailto:hello@vivi.com">SUPPORT@HKIMEDIA.COM</a>
+                  <a href="mailto:Support@hkimedia.com">Support@hkimedia.com</a>
                 </li>
                 <li>
                   <i className="flaticon-pin"></i>
                   Address:
                   <span>
-                    GROUND FLOOR , PLOT NO 251 ,<br /> UDYOG VIHAR PHASE 4 ,
-                    SECTOR 18 ,<br /> GURUGRAM
+                    Ground Floor, Plot No 251, <br></br>Udyog Vihar Phase 4,
+                    Sector 18,<br></br>
+                    Gurugram
                   </span>
                 </li>
               </ul>
