@@ -1,0 +1,147 @@
+"use client";
+  
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+
+const LatestNews: React.FC = () => {
+  return (
+    <>
+      <section className="blog-area-three bg-color-two pt-100 pb-70">
+        <div className="container">
+          <div className="section-title white-title">
+            <span className="top-title">News Feeds</span>
+            <h2>Get The Latest News</h2>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog">
+                <Link href="/blog/details">
+                  <Image
+                    src="/img/blog/blog7.jpg"
+                    alt="Image"
+                    width={570}
+                    height={400}
+                  />
+                </Link>
+
+                <div className="blog-content">
+                  <ul>
+                    <li>
+                      <i className="flaticon-user"></i>
+                      <Link href="#">Admin</Link>
+                    </li>
+                    <li>
+                      <i className="flaticon-calendar"></i>
+                      17/07/2023
+                    </li>
+                  </ul>
+
+                  <Link href="/blog/details">
+                    <h3>Video Production Services Your Business Must Have</h3>
+                  </Link>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore dolore magna aliqua
+                    sit amet consectetur.
+                  </p>
+
+                  <Link href="/blog/details" className="read-more">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog">
+                <Link href="/blog/details">
+                  <Image
+                    src="/img/blog/blog8.jpg"
+                    alt="Image"
+                    width={570}
+                    height={400}
+                  />
+                </Link>
+
+                <div className="blog-content">
+                  <ul>
+                    <li>
+                      <i className="flaticon-user"></i>
+                      <Link href="#">Admin</Link>
+                    </li>
+                    <li>
+                      <i className="flaticon-calendar"></i>
+                      18/07/2023
+                    </li>
+                  </ul>
+
+                  <Link href="/blog/details">
+                    <h3>
+                      Why You Need To Hire top className Video Production
+                      company
+                    </h3>
+                  </Link>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore dolore magna aliqua
+                    sit amet consectetur.
+                  </p>
+
+                  <Link href="/blog/details" className="read-more">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+              <div className="single-blog">
+                <Link href="/blog/details">
+                  <Image
+                    src="/img/blog/blog9.jpg"
+                    alt="Image"
+                    width={570}
+                    height={400}
+                  />
+                </Link>
+
+                <div className="blog-content">
+                  <ul>
+                    <li>
+                      <i className="flaticon-user"></i>
+                      <Link href="#">Admin</Link>
+                    </li>
+                    <li>
+                      <i className="flaticon-calendar"></i>
+                      19/07/2023
+                    </li>
+                  </ul>
+
+                  <Link href="/blog/details">
+                    <h3>Choosing A Video Location For Your Next Project</h3>
+                  </Link>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore dolore magna aliqua
+                    sit amet consectetur.
+                  </p>
+
+                  <Link href="/blog/details" className="read-more">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default LatestNews;
