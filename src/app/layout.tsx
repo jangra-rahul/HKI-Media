@@ -34,8 +34,8 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Vivi - Video Production & Movie React Nextjs Template",
-  description: "Video Production & Movie React Nextjs Template",
+  title: "HKI Media",
+  description: "HKI Media",
 };
 
 export default function RootLayout({
