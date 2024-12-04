@@ -52,7 +52,7 @@ const Privacypolicy = () => {
         <p className="mt-2">
           Additionally, we may collect data regarding how our website is
           accessed and utilized. This can include information such as your
-          device's IP address, browser type, pages visited, duration of visit,
+          devices IP address, browser type, pages visited, duration of visit,
           and other diagnostic data.
         </p>
         <h6 className="mt-4"> Cookies Data:</h6>
@@ -99,7 +99,7 @@ const Privacypolicy = () => {
         <h6 className="mt-4">Transfer of Your Personal Data</h6>
         <p className="mt-2">
           Your information, including personal data, may be processed and
-          maintained at HKI Media's operational sites. This could involve
+          maintained at HKI Medias operational sites. This could involve
           transferring information to locations outside your jurisdiction, where
           data protection laws may differ. By consenting to this Privacy Policy
           and submitting information, you agree to such transfers.
@@ -133,7 +133,7 @@ const Privacypolicy = () => {
             To comply with legal obligations or requests from public authorities
           </li>
           <li className="mt-2" style={{ listStyleType: "initial" }}>
-            To protect and defend HKI Media's rights and interests
+            To protect and defend HKI Medias rights and interests
           </li>
           <li className="mt-2" style={{ listStyleType: "initial" }}>
             Security of Your Personal Data
@@ -145,9 +145,9 @@ const Privacypolicy = () => {
           storage is entirely secure. While we strive to protect your data, we
           cannot guarantee absolute security.
         </p>
-        <h6 className="mt-4">Children's Privacy</h6>
+        <h6 className="mt-4">Childrens Privacy</h6>
         <p className="mt-2">
-          HKI Media's services are not directed toward individuals under the age
+          HKI Medias services are not directed toward individuals under the age
           of 13. We do not knowingly collect personally identifiable information
           from minors. If you are a parent or guardian and believe your child
           has provided us with personal data, please contact us for
