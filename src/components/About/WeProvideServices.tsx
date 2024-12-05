@@ -1,80 +1,69 @@
 "use client";
-  
+
 import React from "react";
 
 const WeProvideServices: React.FC = () => {
   return (
     <>
-      <div className="our-production-area bg-color pt-100 pb-70">
+      <div className="bg-black text-white pt-100 ">
         <div className="container">
-          <div className="section-title">
-            <span>Our Production</span>
-            <h2>Services We Provide</h2>
+          <div className="section-title mb-0">
+            {/* <span>Our Production</span> */}
+            <h2 className="text-white">Our Services</h2>
           </div>
 
           <div className="row">
-            <div className="col-lg-4 col-sm-6">
-              <div className="what-we-do-item">
-                <i className="flaticon-film-editing-1"></i>
-                <h3>Video Production</h3>
+            <div className="col-lg-4 col-sm-6 mt-4">
+              <div className="what-we-do-item h-100">
+                <i className="flaticon-film-editing-1 text-white"></i>
+                <h3 className="text-white">Creatives</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt labore dolore magna.
+                  Crafting innovative and visually engaging content that speaks
+                  to your audience
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="what-we-do-item">
-                <i className="flaticon-film-editing"></i>
-                <h3>Advertising</h3>
+            <div className="col-lg-4 col-sm-6 mt-4">
+              <div className="what-we-do-item h-100">
+                <i className="flaticon-film-editing text-white"></i>
+                <h3 className="text-white">Digital</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt labore dolore magna.
+                  Leveraging digital channels to boost your online presence and
+                  reach targeted audiences.
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="what-we-do-item">
-                <i className="flaticon-advertising"></i>
-                <h3>Documentaries</h3>
+            <div className="col-lg-4 col-sm-6 mt-4">
+              <div className="what-we-do-item h-100">
+                <i className="flaticon-advertising text-white"></i>
+                <h3 className="text-white">Media</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt labore dolore magna.
+                  Strategic media planning and buying to ensure maximum exposure
+                  across platforms.
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="what-we-do-item">
-                <i className="flaticon-talk-show"></i>
-                <h3>Tv Shows</h3>
+            <div className="col-lg-4 col-sm-6 mt-4">
+              <div className="what-we-do-item h-100">
+                <i className="flaticon-talk-show text-white"></i>
+                <h3 className="text-white">Events</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt labore dolore magna.
+                  Organizing and executing impactful events that captivate and
+                  engage your target market
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="what-we-do-item">
-                <i className="flaticon-cinema"></i>
-                <h3>Movies</h3>
+            <div className="col-lg-4 col-sm-6 mt-4">
+              <div className="what-we-do-item h-100">
+                <i className="flaticon-cinema text-white"></i>
+                <h3 className="text-white">OOH</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt labore dolore magna.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="what-we-do-item">
-                <i className="flaticon-music"></i>
-                <h3>Music Videos</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt labore dolore magna.
+                  Innovative out-of-home advertising solutions to reach
+                  audiences wherever they are.
                 </p>
               </div>
             </div>

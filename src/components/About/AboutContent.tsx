@@ -1,38 +1,14 @@
 "use client";
-  
+
 import React from "react";
 import Image from "next/image";
 
 const AboutContent: React.FC = () => {
   return (
     <>
-      <div className="about-area-two bio-data ptb-100">
-        <div className="container">
+      <div className="about-area-two bio-data bg-black ptb-100">
+        <div className="container pt-5">
           <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="about-content">
-                <span>vivi Bio</span>
-                <h2>We Are A Creative Video Production Company</h2>
-
-                <h3>Who We Are</h3>
-                <p>
-                  Video production work with producing video content. It is the
-                  analogical of film making, but the images are digitally
-                  recorded instead of film stock. There are three levels of
-                  video production: production, pre-production and
-                  post-production.
-                </p>
-
-                <h3 className="mt-30">Who We Work</h3>
-                <p>
-                  Video production work with producing video content. It is the
-                  analogical of film making, but the images are digitally
-                  recorded instead of film stock. There are three levels of
-                  video production.
-                </p>
-              </div>
-            </div>
-
             <div className="col-lg-6">
               <div className="row">
                 <div className="col-lg-6 col-sm-6 p-0">
@@ -78,6 +54,34 @@ const AboutContent: React.FC = () => {
                     />
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="about-content">
+                {/* <span>vivi Bio</span> */}
+                <h2 className="text-white">Our Services</h2>
+
+                <h3 className="text-white mb-0">Creatives</h3>
+                <p className="text-white mb-0">
+                  Innovative content that captures attention.
+                </p>
+
+                <h3 className=" mt-3 text-white mb-0">Digital</h3>
+                <p className="text-white mb-0 ">
+                  Boosting your online presence
+                </p>
+                <h3 className=" mt-3 text-white mb-0">Media</h3>
+                <p className="text-white mb-0">
+                  Strategic media planning for wider reach.
+                </p>
+                <h3 className=" mt-3 text-white mb-0">Events</h3>
+                <p className="text-white mb-0">
+                  Memorable events to engage your audience.
+                </p>
+                <h3 className=" mt-3 text-white mb-0">OOH</h3>
+                <p className="text-white mb-0">
+                  Creative outdoor advertising solutions.
+                </p>
               </div>
             </div>
           </div>

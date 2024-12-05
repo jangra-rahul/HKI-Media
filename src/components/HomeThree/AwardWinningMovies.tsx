@@ -3,6 +3,9 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
+import "../Entertainment/entertainment.css";
 
 const AwardWinningMovies: React.FC = () => {
   const [currentTab, setCurrentTab] = useState<string>("tab1");
@@ -33,8 +36,8 @@ const AwardWinningMovies: React.FC = () => {
       <div className="products-area three ptb-100 jarallax">
         <div className="container">
           <div className="section-title white-title">
-            <span>Products</span>
-            <h2>Award Winning Movies</h2>
+            {/* <span>Products</span> */}
+            <h2>SERVICES OFFERED</h2>
           </div>
 
           <div className="tab award-winning-tab">
@@ -43,46 +46,49 @@ const AwardWinningMovies: React.FC = () => {
                 className={currentTab === "tab1" ? "current" : ""}
                 onClick={() => openTabSection("tab1")}
               >
-                <span>2000</span>
+                <span>Film</span>
               </li>
               <li onClick={() => openTabSection("tab2")}>
-                <span>2001</span>
+                <span>Music</span>
               </li>
               <li onClick={() => openTabSection("tab3")}>
-                <span>2002</span>
+                <span>Landmark Films</span>
               </li>
               <li onClick={() => openTabSection("tab4")}>
-                <span>2003</span>
+                <span>Studio</span>
               </li>
-              <li onClick={() => openTabSection("tab5")}>
+              {/* <li onClick={() => openTabSection("tab5")}>
                 <span>2004</span>
-              </li>
+              </li> */}
             </ul>
 
             <div className="tab-content">
               <div id="tab1" className="tabs-item">
                 <div className="row align-items-center">
                   <div className="col-lg-6">
-                    <div className="products">
+                    <div className="products d-flex justify-content-center">
                       <Image
+                        src="/img/latest-trailer/latest-trailer1.jpg"
+                        alt="Image"
+                        width={300}
+                        height={490}
+                      />
+                      {/* <Image
                         src="/img/products-img.jpg"
                         alt="Image"
                         width={600}
                         height={490}
-                      />
+                      /> */}
                     </div>
                   </div>
 
                   <div className="col-lg-6">
                     <div className="products-content">
-                      <span>Film Festival</span>
-                      <h2>Award Winning Movies “Once Upon a Time”</h2>
+                      {/* <span>Film Festival</span> */}
+                      <h2>Multilingual film production</h2>
                       <p>
-                        Video production work with producing video content. It
-                        is the analogical of film making, but the images are
-                        digitally recorded instead of film stock. There are
-                        three levels of video production: production,
-                        pre-production and post-production the images are.
+                        We bring stories to life across languages, ensuring
+                        cultural relevance and emotional resonance
                       </p>
 
                       <Link href="#" className="default-btn">
@@ -97,25 +103,116 @@ const AwardWinningMovies: React.FC = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="products">
-                      <Image
+                      {/* <Image
                         src="/img/products-img-2.jpg"
                         alt="Image"
                         width={600}
                         height={490}
-                      />
+                      /> */}
+                      <Swiper
+                        spaceBetween={30}
+                        pagination={{
+                          clickable: true,
+                        }}
+                        speed={1000}
+                        autoplay={{
+                          delay: 6500,
+                          disableOnInteraction: true,
+                          pauseOnMouseEnter: true,
+                        }}
+                        breakpoints={{
+                          0: {
+                            slidesPerView: 2,
+                          },
+                          576: {
+                            slidesPerView: 2,
+                          },
+                          768: {
+                            slidesPerView: 2,
+                          },
+                          992: {
+                            slidesPerView: 2,
+                          },
+                        }}
+                        modules={[Pagination, Autoplay]}
+                        className="latest-trailer-wrap-two pb-5"
+                      >
+                        {/* <SwiperSlide>
+                          <div className="latest-trailer-item">
+                            <Image
+                              src="/img/latest-trailer/song3.jpg"
+                              alt="Image"
+                              width={285}
+                              height={400}
+                            />
+                          </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                          <div className="latest-trailer-item">
+                            <Image
+                              src="/img/latest-trailer/song4.jpg"
+                              alt="Image"
+                              width={285}
+                              height={400}
+                            />
+                          </div>
+                        </SwiperSlide> */}
+
+                        <SwiperSlide>
+                          <div className="latest-trailer-item">
+                            <Image
+                              src="/img/latest-trailer/song1.jpg"
+                              alt="Image"
+                              width={285}
+                              height={400}
+                            />
+                          </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                          <div className="latest-trailer-item">
+                            <Image
+                              src="/img/latest-trailer/song2.jpg"
+                              alt="Image"
+                              width={285}
+                              height={400}
+                            />
+                          </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                          <div className="latest-trailer-item">
+                            <Image
+                              src="/img/latest-trailer/song6.jpg"
+                              alt="Image"
+                              width={285}
+                              height={400}
+                            />
+                          </div>
+                        </SwiperSlide>
+
+                        {/* <SwiperSlide>
+                          <div className="latest-trailer-item">
+                            <Image
+                              src="/img/latest-trailer/song5.jpg"
+                              alt="Image"
+                              width={285}
+                              height={400}
+                            />
+                          </div>
+                        </SwiperSlide> */}
+                      </Swiper>
                     </div>
                   </div>
 
                   <div className="col-lg-6">
                     <div className="products-content">
-                      <span>Vivi Bio</span>
-                      <h2>Award Winning Movies “Once Upon a Time”</h2>
+                      {/* <span>Vivi Bio</span> */}
+                      <h2>200+ Music Videos</h2>
                       <p>
-                        Video production work with producing video content. It
-                        is the analogical of film making, but the images are
-                        digitally recorded instead of film stock. There are
-                        three levels of video production: production,
-                        pre-production and post-production the images are.
+                        Having produced over 200 music videos, we showcase our
+                        ability to deliver high-impact visuals and sound.
                       </p>
 
                       <Link href="#" className="default-btn">
@@ -129,26 +226,31 @@ const AwardWinningMovies: React.FC = () => {
               <div id="tab3" className="tabs-item">
                 <div className="row align-items-center">
                   <div className="col-lg-6">
-                    <div className="products">
-                      <Image
+                    <div className="products d-flex justify-content-center">
+                      {/* <Image
                         src="/img/products-img-3.jpg"
                         alt="Image"
                         width={600}
                         height={490}
+                      /> */}
+                      <Image
+                        src="/img/latest-trailer/latest-trailer2.jpg"
+                        alt="Image"
+                        width={345}
+                        height={100}
+                        className=""
                       />
                     </div>
                   </div>
 
                   <div className="col-lg-6">
                     <div className="products-content">
-                      <span>Vivi Bio</span>
-                      <h2>Award Winning Movies “Once Upon a Time”</h2>
+                      {/* <span>Vivi Bio</span> */}
+                      <h2>Landmark Films</h2>
                       <p>
-                        Video production work with producing video content. It
-                        is the analogical of film making, but the images are
-                        digitally recorded instead of film stock. There are
-                        three levels of video production: production,
-                        pre-production and post-production the images are.
+                        Our work on landmark films such as Yamuna Putra Angad
+                        demonstrates our capacity to create content that leaves
+                        a mark on both regional and national landscapes.
                       </p>
 
                       <Link href="#" className="default-btn">
@@ -162,11 +264,11 @@ const AwardWinningMovies: React.FC = () => {
               <div id="tab4" className="tabs-item">
                 <div className="row align-items-center">
                   <div className="col-lg-6">
-                    <div className="products">
+                    <div className="products d-flex justify-content-center">
                       <Image
-                        src="/img/products-img-4.jpg"
+                        src="/img/latest-trailer/latest-trailer3.jpg"
                         alt="Image"
-                        width={600}
+                        width={345}
                         height={490}
                       />
                     </div>
@@ -174,14 +276,11 @@ const AwardWinningMovies: React.FC = () => {
 
                   <div className="col-lg-6">
                     <div className="products-content">
-                      <span>Vivi Bio</span>
+                      {/* <span>Regional Studio Collaborations</span> */}
                       <h2>Award Winning Movies “Once Upon a Time”</h2>
                       <p>
-                        Video production work with producing video content. It
-                        is the analogical of film making, but the images are
-                        digitally recorded instead of film stock. There are
-                        three levels of video production: production,
-                        pre-production and post-production the images are.
+                        Having produced over 200 music videos, we showcase our
+                        ability to deliver high-impact visuals and sound.
                       </p>
 
                       <Link href="#" className="default-btn">

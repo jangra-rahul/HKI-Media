@@ -31,7 +31,7 @@ const AdvertisementsHero = () => {
             </div>
           </div>
           <div className="col-4">
-            <div className="border h-100 shadow-xl rounded-4">
+            <div className="border shadow-xl rounded-4">
               <div className="shadow-sm text-white border-0 rounded">
                 <Image
                   src="/img/latest-trailer/image1.png"
@@ -55,7 +55,7 @@ const AdvertisementsHero = () => {
             </div>
           </div>
           <div className="col-4">
-            <div className="border h-100 shadow-xl rounded-4">
+            <div className="border shadow-xl rounded-4">
               <div className="shadow-sm text-white border-0 rounded">
                 <Image
                   src="/img/latest-trailer/image1.png"
@@ -69,9 +69,10 @@ const AdvertisementsHero = () => {
                     Government Ads
                   </h3>
                   <p>
-                    With a deep understanding of public initiatives, we design
-                    and execute impactful campaigns that foster awareness and
-                    drive action on a national scale.
+                    We craft narratives that connect with audiences on a deeper
+                    level, blending creativity with cultural relevance to
+                    deliver unforgettable advertising campaigns that leave
+                    lasting impressions.
                   </p>
                 </div>
               </div>

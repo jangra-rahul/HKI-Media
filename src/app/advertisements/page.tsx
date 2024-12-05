@@ -1,6 +1,8 @@
 import EntertainmentHeroSection from "@/components/Entertainment/EntertainmentHeroSection";
 import PageBanner from "../../components/Common/PageBanner";
 import AdvertisementsHero from "@/components/Advertisements/AdvertisementsHero";
+import WeProvideServices from "@/components/About/WeProvideServices";
+import AboutContent from "@/components/About/AboutContent";
 
 export default function Page() {
   return (
@@ -12,7 +14,9 @@ export default function Page() {
         activePageText="Entertainment"
         bgImg="/img/page-banner/page-banner3.jpg"
       /> */}
-      <AdvertisementsHero />
+      {/* <WeProvideServices />
+      <AdvertisementsHero /> */}
+      <AboutContent />
     </>
   );
 }
