@@ -34,7 +34,7 @@ export const menus = [
   },
   {
     label: "ADVERTISEMENTS  ",
-    link: "/home-3/",
+    link: "/advertisements/",
   },
   {
     label: "ENTERTAINMENT  ",

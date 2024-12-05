@@ -24,7 +24,7 @@ const UpcomingMovies: React.FC = () => {
         <div className="container">
           <div className="section-title white-title">
             {/* <span>Latest Trailer</span> */}
-            <h2>Feature films</h2>
+            <h2 className="mb-0">Feature films</h2>
           </div>
 
           {/* <Swiper
@@ -199,8 +199,8 @@ const UpcomingMovies: React.FC = () => {
               </div>
             </SwiperSlide>
           </Swiper> */}
-          <div className="row">
-            <div className="col-4">
+          <div className="row justify-content-center">
+            <div className="col-md-3 col-sm-6 mt-4">
               <Image
                 src="/img/latest-trailer/latest-trailer1.jpg"
                 alt="Image"
@@ -209,7 +209,7 @@ const UpcomingMovies: React.FC = () => {
                 className="w-100 h-100"
               />
             </div>
-            <div className="col-4">
+            <div className="col-md-3 col-sm-6 mt-4">
               <Image
                 src="/img/latest-trailer/latest-trailer2.jpg"
                 alt="Image"
@@ -218,7 +218,7 @@ const UpcomingMovies: React.FC = () => {
                 className="w-100 h-100"
               />
             </div>
-            <div className="col-4">
+            <div className="col-md-3 col-sm-6 mt-4">
               <Image
                 src="/img/latest-trailer/latest-trailer3.jpg"
                 alt="Image"

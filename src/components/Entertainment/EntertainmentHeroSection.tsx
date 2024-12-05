@@ -14,15 +14,27 @@ const EntertainmentHeroSection = () => {
       {" "}
       <div className="container  pt-5">
         <h2 className="text-white text-center">SERVICES OFFERED</h2>
+
         <div className="row align-items-center justify-content-between mt-5">
-          <div className="col-6">
+          <div className="col-md-8 col-12 mt-4 mt-md-0">
             <h2 className="text-white">Multilingual film production</h2>
             <p className="text-white">
-              We bring stories to life across languages, ensuring cultural
-              relevance and emotional resonance
+              We specialize in bringing stories to life across multiple
+              languages, ensuring cultural relevance and emotional depth for
+              audiences worldwide. Our multilingual film production process goes
+              beyond mere translation—it’s about adapting stories to resonate
+              with diverse cultures while preserving their core essence. From
+              script adaptation to voice dubbing and subtitling, every detail is
+              handled with precision by language experts and cultural
+              consultants. By collaborating with international talents and
+              leveraging innovative cinematography, we create films that break
+              linguistic barriers and connect deeply with global audiences. Our
+              mission is to craft cinematic experiences that unite people
+              through the universal language of emotions, making your story
+              truly unforgettable across cultures.
             </p>
           </div>
-          <div className="col-3">
+          <div className="col-md-3 col-12 mt-4 mt-md-0">
             <Image
               src="/img/latest-trailer/latest-trailer1.jpg"
               alt="Image"
@@ -33,7 +45,7 @@ const EntertainmentHeroSection = () => {
           </div>
         </div>
         <div className="row align-items-center pb-5 justify-content-between mt-5">
-          <div className="col-5">
+          <div className="col-md-5 col-12 mt-4 mt-md-0">
             <Swiper
               spaceBetween={30}
               pagination={{
@@ -47,7 +59,7 @@ const EntertainmentHeroSection = () => {
               }}
               breakpoints={{
                 0: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 576: {
                   slidesPerView: 2,
@@ -129,24 +141,37 @@ const EntertainmentHeroSection = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="col-6 text-end">
-            <h2 className="text-white">Multilingual film production</h2>
+          <div className="col-md-7 col-12 mt-4 mt-md-0 text-end">
+            <h2 className="text-white">200+ Music Videos</h2>
             <p className="text-white">
-              We bring stories to life across languages, ensuring cultural
-              relevance and emotional resonance
+              With a portfolio of over 200 music videos, we have mastered the
+              art of blending stunning visuals with captivating soundscapes.
+              Each project reflects our commitment to creativity, precision, and
+              storytelling, ensuring every frame leaves a lasting impression.
+              From conceptualization to post-production, we bring a unique touch
+              to every music video, creating experiences that resonate deeply
+              with audiences. Our ability to adapt to diverse musical genres and
+              artistic visions showcases our versatility and passion for
+              delivering high-impact audiovisual masterpieces.
             </p>
           </div>
         </div>
         <div className="row align-items-center justify-content-between mt-5">
-          <div className="col-6">
+          <div className="col-md-8 col-12 mt-4 mt-md-0">
             <h2 className="text-white">Landmark Films</h2>
             <p className="text-white">
-              Our work on landmark films such as Yamuna Putra Angad demonstrates
-              our capacity to create content that leaves a mark on both regional
-              and national landscapes.
+              Our journey in filmmaking is defined by projects that leave an
+              indelible mark on audiences, both regionally and nationally.
+              Landmark productions like Yamuna Putra Angad stand as a testament
+              to our ability to create stories that resonate deeply with diverse
+              viewers. By combining compelling narratives, powerful
+              performances, and cutting-edge production techniques, we ensure
+              every film becomes a cultural milestone. Through these projects,
+              we continue to shape the cinematic landscape, delivering
+              experiences that inspire, entertain, and endure the test of time.
             </p>
           </div>
-          <div className="col-3">
+          <div className="col-md-3 col-12 mt-4 mt-md-0">
             <Image
               src="/img/latest-trailer/latest-trailer2.jpg"
               alt="Image"
@@ -156,8 +181,8 @@ const EntertainmentHeroSection = () => {
             />
           </div>
         </div>
-        <div className="row align-items-center justify-content-between mt-5 ">
-          <div className="col-3">
+        <div className="row align-items-center pt-5 justify-content-between mt-5 ">
+          <div className="col-md-3 col-12 mt-4 mt-md-0">
             <Image
               src="/img/latest-trailer/image1.png"
               alt="Image"
@@ -166,11 +191,19 @@ const EntertainmentHeroSection = () => {
               className="w-100 "
             />
           </div>
-          <div className="col-6 text-end">
+          <div className="col-md-8 col-12 mt-4 mt-md-0 text-end">
             <h2 className="text-white">Regional Studio Collaborations</h2>
             <p className="text-white">
-              Having produced over 200 music videos, we showcase our ability to
-              deliver high-impact visuals and sound.
+              Our extensive experience in producing over 200 music videos
+              highlights our expertise in creating high-impact visuals and
+              immersive soundscapes. Collaborating with regional studios allows
+              us to tap into diverse cultural aesthetics and local talent,
+              resulting in projects that are authentic and relatable. These
+              partnerships enable us to craft unique content that not only
+              elevates regional artistry but also resonates with a broader
+              audience. Together, we bring a seamless blend of creativity,
+              innovation, and technical excellence to every production, making
+              each project a standout achievement in its own right.
             </p>
           </div>
         </div>
