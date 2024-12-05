@@ -18,16 +18,16 @@ const UpcomingMovies: React.FC = () => {
       />
 
       <div
-        className="latest-trailer-three ptb-100 jarallax"
+        className=" ptb-100 "
         style={{ backgroundImage: `url(/img/latest-trailer-bg.jpg)` }}
       >
         <div className="container">
           <div className="section-title white-title">
-            <span>Latest Trailer</span>
-            <h2>Upcoming Movies By Our Production House</h2>
+            {/* <span>Latest Trailer</span> */}
+            <h2>Feature films</h2>
           </div>
 
-          <Swiper
+          {/* <Swiper
             spaceBetween={30}
             pagination={{
               clickable: true,
@@ -198,7 +198,36 @@ const UpcomingMovies: React.FC = () => {
                 </div>
               </div>
             </SwiperSlide>
-          </Swiper>
+          </Swiper> */}
+          <div className="row">
+            <div className="col-4">
+              <Image
+                src="/img/latest-trailer/latest-trailer1.jpg"
+                alt="Image"
+                width={285}
+                height={400}
+                className="w-100 h-100"
+              />
+            </div>
+            <div className="col-4">
+              <Image
+                src="/img/latest-trailer/latest-trailer2.jpg"
+                alt="Image"
+                width={285}
+                height={400}
+                className="w-100 h-100"
+              />
+            </div>
+            <div className="col-4">
+              <Image
+                src="/img/latest-trailer/latest-trailer3.jpg"
+                alt="Image"
+                width={285}
+                height={400}
+                className="w-100 h-100"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>

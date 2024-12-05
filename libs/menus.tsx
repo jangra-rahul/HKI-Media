@@ -38,7 +38,7 @@ export const menus = [
   },
   {
     label: "ENTERTAINMENT  ",
-    link: "/home-3/",
+    link: "/entertainment/",
   },
   {
     label: "MEDIA MATRIX APP",
