@@ -1,5 +1,5 @@
 "use client";
-  
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,19 +7,14 @@ import Image from "next/image";
 const WhatWeDo: React.FC = () => {
   return (
     <>
-      <section className="what-we-do-area three bg-color-two pt-100 pb-70">
+      <section className="what-we-do-area three bg-color-two pt-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="what-we-do-content">
-                <span>What We Do</span>
-                <h2>Video Solution Every Stage</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
+                {/* <span>What We Do</span> */}
+                <h2>Why Invest in HKI Animatica</h2>
+                <p>A Proven and Scalable Business Model</p>
 
                 <div className="brand-wrap">
                   <div className="row">
@@ -98,41 +93,41 @@ const WhatWeDo: React.FC = () => {
             </div>
 
             <div className="col-lg-6">
-              <div className="row">
+              <div className="row align-items-center">
                 <div className="col-lg-6 col-sm-6">
-                  <div className="what-we-do-item mt-30">
-                    <i className="flaticon-film-editing-1"></i>
-                    <h3>Pre-Production</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt.
-                    </p>
+                  <div className="row flex-column">
+                    <div className="col-12">
+                      <div className="what-we-do-item  border">
+                        <i className="flaticon-film-editing-1 "></i>
+                        <h3>Government-sponsored schemes</h3>
+                        <p>Tap into state-backed funding opportunities.</p>
+                      </div>
+                    </div>
+                    <div className="col-lg-12 ">
+                      <div className="what-we-do-item border">
+                        <i className="flaticon-film-editing "></i>
+                        <h3>AICTE-approved diploma courses</h3>
+                        <p>
+                          Attract students seeking industry-ready
+                          certifications.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-sm-6">
-                  <div className="what-we-do-item">
-                    <i className="flaticon-film-editing"></i>
-                    <h3>Production</h3>
+                  <div className="what-we-do-item border">
+                    <i className="flaticon-advertising "></i>
+                    <h3>Content monetization</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt.
+                      Create and market premium animated content through
+                      platforms like YouTube and OTT giants.
                     </p>
                   </div>
                 </div>
 
-                <div className="col-lg-6 col-sm-6">
-                  <div className="what-we-do-item">
-                    <i className="flaticon-advertising"></i>
-                    <h3>Post-Production</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-sm-6">
+                {/* <div className="col-lg-6 col-sm-6">
                   <div className="what-we-do-item mt-mince-30">
                     <i className="flaticon-movie"></i>
                     <h3>Conversion</h3>
@@ -141,7 +136,7 @@ const WhatWeDo: React.FC = () => {
                       sed do eiusmod tempor incididunt.
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

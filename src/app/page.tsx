@@ -8,7 +8,7 @@ import TeamMember from "../../src/components/HomeThree/TeamMember";
 import ProductionProcess from "../../src/components/HomeThree/ProductionProcess";
 import LatestNews from "../../src/components/HomeThree/LatestNews";
 import Partners from "../../src/components/Common/Partners";
-import AwardWinningMovies from "../../src/components/HomeThree/AwardWinningMovies";
+// import AwardWinningMovies from "../../src/components/HomeThree/AwardWinningMovies";
 
 export default function Home() {
   return (
@@ -46,7 +46,7 @@ export default function Home() {
 
       <UpcomingMovies />
 
-      <WhatWeDo />
+      {/* <WhatWeDo /> */}
 
       <TeamMember />
 

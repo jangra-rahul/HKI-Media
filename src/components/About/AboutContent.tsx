@@ -6,8 +6,8 @@ import Image from "next/image";
 const AboutContent: React.FC = () => {
   return (
     <>
-      <div className="about-area-two bio-data bg-black ptb-100">
-        <div className="container pt-5">
+      <div className="about-area-two bio-data bg-black pt-5 ">
+        <div className="container pt-5 ">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="row">

@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
         <div className="main-nav">
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg">
-              <Link href="/home-3" className="navbar-brand">
+              <Link href="/" className="navbar-brand">
                 {/* <Image src="/img/logo.png" alt="logo" width={90} height={33} /> */}
                 <h2 className="mb-0">HKI Media</h2>
               </Link>

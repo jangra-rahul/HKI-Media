@@ -13,7 +13,7 @@ export const menus = [
   //       },
   //       {
   //         label: "Home Demo 3",
-  //         link: "/home-3/",
+  //         link: "/",
   //       },
   //     ],
   //   },
@@ -22,15 +22,15 @@ export const menus = [
 
   {
     label: "Home",
-    link: "/home-3/",
+    link: "/",
   },
   {
     label: "HKI ANIMATICA ",
-    link: "/home-3/",
+    link: "/animatica",
   },
   {
     label: "SKILLING ",
-    link: "/home-3/",
+    link: "/skillpage",
   },
   {
     label: "ADVERTISEMENTS  ",
@@ -42,7 +42,7 @@ export const menus = [
   },
   {
     label: "MEDIA MATRIX APP",
-    link: "/home-3/",
+    link: "/mediamatrixapp/",
   },
 
   // --------------------------------------------------------------------------------------
