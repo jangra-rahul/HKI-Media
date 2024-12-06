@@ -53,7 +53,7 @@ const WeProvideServices: React.FC = () => {
             <div className="col-lg-4 col-sm-6 mt-4">
               <div className="what-we-do-item border h-100">
                 <i className="flaticon-talk-show text-white"></i>
-                <h4 className="text-white">Localized Kids' Heroes</h4>
+                <h4 className="text-white">Localized Kids Heroes</h4>
                 <p className="text-white">
                   Develop cultural icons in regional languages inspired by hits
                   like Chhota Bheem.
