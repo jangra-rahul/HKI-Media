@@ -12,9 +12,9 @@ const MediaMatrixHero = () => {
     <div className=" py-5">
       <div className=" container">
         <section className="media-matrix-section">
-          <div className="row align-items-center">
+          <div className="row justify-content-between align-items-center">
             {/* Left Text Section */}
-            <div className="col-lg-6 col-md-12 text-box">
+            <div className="col-lg-5 col-md-12 text-box">
               <h2 className="section-title text-start">
                 MEDIA MATRIX APP - INTEGRATING THE INDIAN MEDIA & ENTERTAINMENT
                 INDUSTRY
