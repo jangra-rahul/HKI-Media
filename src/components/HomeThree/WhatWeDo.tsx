@@ -142,6 +142,75 @@ const WhatWeDo: React.FC = () => {
           </div>
         </div>
       </section>
+      <section
+        style={{
+          backgroundImage: "url('/img/banner/banner1.jpg')", // Add a classy background pattern
+          backgroundSize: "cover",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+        }}
+        className="py-5 text-white"
+      >
+        <div className="container py-5">
+          <div className="row align-items-center">
+            {/* Left Side Content */}
+            <div className="col-lg-6 mb-4 mb-lg-0">
+              <h2 className="display-4 text-white fw-bold text-uppercase mb-4">
+                Our Vision
+              </h2>
+              <p className="lead" style={{ lineHeight: "1.8" }}>
+                Over the next two years, we aim to establish{" "}
+                <span className="text-warning">
+                  20 HKI Animatica Centers of Excellence
+                </span>
+                , with 4 already in the pipeline. Each center will serve as a
+                hub of <strong>innovation</strong>, <strong>creativity</strong>,
+                and <strong>opportunity</strong>, empowering students and
+                creators to shape the future of the{" "}
+                <span className="text-warning">AVGC-XR sector</span>.
+              </p>
+              <div className="mt-4">
+                <a href="#" className="default-btn">
+                  Learn More
+                </a>
+              </div>
+            </div>
+
+            {/* Right Side Illustration */}
+            <div className="col-lg-6 text-center">
+              <div
+                className="position-relative"
+                style={{
+                  maxWidth: "500px",
+                  margin: "0 auto",
+                }}
+              >
+                <img
+                  src="/img/about-img1.jpg" // Replace with your illustration path
+                  alt="Vision Illustration"
+                  className="img-fluid rounded shadow-lg"
+                  style={{
+                    transform: "scale(1.05)",
+                    transition: "transform 0.3s ease",
+                  }}
+                  //   onMouseEnter={(e) => {
+                  //     e.target.style.transform = "scale(1.1)";
+                  //   }}
+                  //   onMouseLeave={(e) => {
+                  //     e.target.style.transform = "scale(1.05)";
+                  //   }}
+                />
+                {/* <div
+                  className="position-absolute mb-2 bottom-0 start-50 translate-middle-x bg-warning text-dark p-3 rounded-pill fw-bold shadow"
+                  style={{ width: "80%" }}
+                >
+                  Centers of Excellence
+                </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

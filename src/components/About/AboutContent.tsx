@@ -6,8 +6,8 @@ import Image from "next/image";
 const AboutContent: React.FC = () => {
   return (
     <>
-      <div className="about-area-two bio-data bg-black pt-5 ">
-        <div className="container pt-5 ">
+      <div className="about-area-two bio-data py-5 ">
+        <div className="container ">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="row">
@@ -59,29 +59,25 @@ const AboutContent: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-content">
                 {/* <span>vivi Bio</span> */}
-                <h2 className="text-white">Our Services</h2>
+                <h2 className="">Our Services</h2>
 
-                <h3 className="text-white mb-0">Creatives</h3>
-                <p className="text-white mb-0">
+                <h3 className=" mb-0">Creatives</h3>
+                <p className=" mb-0">
                   Innovative content that captures attention.
                 </p>
 
-                <h3 className=" mt-3 text-white mb-0">Digital</h3>
-                <p className="text-white mb-0 ">
-                  Boosting your online presence
-                </p>
-                <h3 className=" mt-3 text-white mb-0">Media</h3>
-                <p className="text-white mb-0">
+                <h3 className=" mt-3  mb-0">Digital</h3>
+                <p className=" mb-0 ">Boosting your online presence</p>
+                <h3 className=" mt-3  mb-0">Media</h3>
+                <p className=" mb-0">
                   Strategic media planning for wider reach.
                 </p>
-                <h3 className=" mt-3 text-white mb-0">Events</h3>
-                <p className="text-white mb-0">
+                <h3 className=" mt-3  mb-0">Events</h3>
+                <p className=" mb-0">
                   Memorable events to engage your audience.
                 </p>
-                <h3 className=" mt-3 text-white mb-0">OOH</h3>
-                <p className="text-white mb-0">
-                  Creative outdoor advertising solutions.
-                </p>
+                <h3 className=" mt-3  mb-0">OOH</h3>
+                <p className=" mb-0">Creative outdoor advertising solutions.</p>
               </div>
             </div>
           </div>

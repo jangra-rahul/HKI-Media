@@ -33,11 +33,11 @@ const AwardWinningMovies: React.FC = () => {
 
   return (
     <>
-      <div className="products-area three ptb-100 jarallax">
+      <div className=" three py-5 jarallax">
         <div className="container">
           <div className="section-title white-title">
             {/* <span>Products</span> */}
-            <h2>SERVICES OFFERED</h2>
+            <h2 className="text-black">SERVICES OFFERED</h2>
           </div>
 
           <div className="tab award-winning-tab">

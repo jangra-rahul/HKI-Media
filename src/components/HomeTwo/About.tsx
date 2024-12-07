@@ -7,9 +7,9 @@ import Image from "next/image";
 const About: React.FC = () => {
   return (
     <>
-      <div className="about-area-two bg-black  ">
-        <div className="container pt-4">
-          <div className="row pt-md-5 mt-3 align-items-center">
+      <div className="about-area-two bg-black  py-5">
+        <div className="container">
+          <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-img">
                 {/* <Image

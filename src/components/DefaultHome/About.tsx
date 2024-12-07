@@ -7,8 +7,8 @@ import Image from "next/image";
 const About: React.FC = () => {
   return (
     <>
-      <div className="about-area bg-black pt-5">
-        <div className="container pt-5 mt-md-5">
+      <div className="about-area ">
+        <div className="container py-5 ">
           <div
             className="about-content-wrap pt-5"
             style={{
@@ -23,8 +23,8 @@ const About: React.FC = () => {
               <div className="col-lg-8">
                 <div className="about-content mb-0 pb-0">
                   {/* <span>Vivi Bio</span> */}
-                  <h2 className="text-white">Product Shoots</h2>
-                  <p className="text-white">
+                  <h2 className="">Product Shoots</h2>
+                  <p className="">
                     Through our high-quality product shoots, we capture the
                     essence of every brand, presenting its features with
                     stunning visuals designed to persuade and captivate

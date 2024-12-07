@@ -33,11 +33,11 @@ const Achievements: React.FC = () => {
 
   return (
     <>
-      <div className="products-area three ptb-100 jarallax">
+      <div className="  three py-5 jarallax">
         <div className="container">
           <div className="section-title white-title">
             {/* <span>Products</span> */}
-            <h2>Achievements</h2>
+            <h2 className="text-black">Achievements</h2>
           </div>
 
           <div className="tab award-winning-tab">
@@ -63,17 +63,6 @@ const Achievements: React.FC = () => {
               <div id="tab1" className="tabs-item">
                 <div className="row align-items-center">
                   <div className="col-lg-6">
-                    <div className="products d-flex justify-content-center">
-                      <Image
-                        src="/img/products-img.jpg"
-                        alt="Image"
-                        width={600}
-                        height={490}
-                      />
-                    </div>
-                  </div>
-
-                  <div className="col-lg-6">
                     <div className="products-content">
                       {/* <span>Film Festival</span> */}
                       <h2>Over 2,000 Students Trained in 2023-24</h2>
@@ -88,22 +77,21 @@ const Achievements: React.FC = () => {
                       </Link>
                     </div>
                   </div>
-                </div>
-              </div>
-
-              <div id="tab2" className="tabs-item">
-                <div className="row align-items-center">
                   <div className="col-lg-6">
-                    <div className="products">
+                    <div className="products d-flex justify-content-center">
                       <Image
-                        src="/img/products-img-2.jpg"
+                        src="/img/products-img.jpg"
                         alt="Image"
                         width={600}
                         height={490}
                       />
                     </div>
                   </div>
+                </div>
+              </div>
 
+              <div id="tab2" className="tabs-item">
+                <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="products-content">
                       {/* <span>Vivi Bio</span> */}
@@ -119,11 +107,35 @@ const Achievements: React.FC = () => {
                       </Link>
                     </div>
                   </div>
+                  <div className="col-lg-6">
+                    <div className="products">
+                      <Image
+                        src="/img/products-img-2.jpg"
+                        alt="Image"
+                        width={600}
+                        height={490}
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div id="tab3" className="tabs-item">
                 <div className="row align-items-center">
+                  <div className="col-lg-6">
+                    <div className="products-content">
+                      {/* <span>Vivi Bio</span> */}
+                      <h2>National Affiliations</h2>
+                      <p>
+                        Recognized under Startup India, Skill India, and
+                        affiliated with NSDC, MESC, UPSDM, TCIL, and ICASA.
+                      </p>
+
+                      <Link href="#" className="default-btn">
+                        Learn More
+                      </Link>
+                    </div>
+                  </div>
                   <div className="col-lg-6">
                     <div className="products d-flex justify-content-center">
                       {/* <Image
@@ -140,37 +152,11 @@ const Achievements: React.FC = () => {
                       />
                     </div>
                   </div>
-
-                  <div className="col-lg-6">
-                    <div className="products-content">
-                      {/* <span>Vivi Bio</span> */}
-                      <h2>National Affiliations</h2>
-                      <p>
-                        Recognized under Startup India, Skill India, and
-                        affiliated with NSDC, MESC, UPSDM, TCIL, and ICASA.
-                      </p>
-
-                      <Link href="#" className="default-btn">
-                        Learn More
-                      </Link>
-                    </div>
-                  </div>
                 </div>
               </div>
 
               <div id="tab4" className="tabs-item">
                 <div className="row align-items-center">
-                  <div className="col-lg-6">
-                    <div className="products d-flex justify-content-center">
-                      <Image
-                        src="/img/products-img-3.jpg"
-                        alt="Image"
-                        width={600}
-                        height={490}
-                      />
-                    </div>
-                  </div>
-
                   <div className="col-lg-6">
                     <div className="products-content">
                       {/* <span>Regional Studio Collaborations</span> */}
@@ -184,6 +170,16 @@ const Achievements: React.FC = () => {
                       <Link href="#" className="default-btn">
                         Learn More
                       </Link>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="products d-flex justify-content-center">
+                      <Image
+                        src="/img/products-img-3.jpg"
+                        alt="Image"
+                        width={600}
+                        height={490}
+                      />
                     </div>
                   </div>
                 </div>

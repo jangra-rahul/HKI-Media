@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import "./home.css";
 
 const ExclusiveShop: React.FC = () => {
   return (
@@ -13,8 +14,7 @@ const ExclusiveShop: React.FC = () => {
       >
         <div className="container">
           <div className="section-title white-title">
-            <span>Exclusive shop</span>
-            <h2>Collect Your Movies Now!</h2>
+            <h2>The HKI Animatica Franchise Advantage</h2>
           </div>
 
           <div className="row align-items-center">
@@ -42,41 +42,38 @@ const ExclusiveShop: React.FC = () => {
               <div className="exclusive-video-list">
                 <div className="row align-items-center">
                   <div className="col-lg-3">
-                    <div className="exclusive-list-img">
+                    <div className="">
                       <Link href="/shop/details/">
                         <Image
+                          className="custom_w"
                           src="/img/products/product1.jpg"
                           alt="Image"
-                          width={285}
-                          height={400}
+                          width={255}
+                          height={300}
                         />
                       </Link>
                     </div>
                   </div>
                   <div className="col-lg-9">
                     <div className="exclusive-text">
-                      <h3>
-                        <Link href="/shop/details/">Deep Sea</Link>
-                      </h3>
-                      <span>
-                        <del>$59.1</del> $57.1
-                      </span>
+                      <h3>State-of-the-Art Infrastructure</h3>
+
                       <ul>
-                        <li>Director: Peter Spider</li>
-                        <li>Release: 01-01-2018</li>
+                        <li>
+                          Build a cutting-edge animation studio equipped with
+                          industry-standard technology.
+                        </li>
                       </ul>
-                      <button type="submit" className="default-btn">
-                        <i className="flaticon-shopping-cart"></i>Add To Cart
-                      </button>
                     </div>
                   </div>
                 </div>
 
                 <div className="row align-items-center">
                   <div className="col-lg-3">
-                    <div className="exclusive-list-img">
+                    <div className="">
                       <Link href="/shop/details/">
                         <Image
+                          className="custom_w"
                           src="/img/products/product2.jpg"
                           alt="Image"
                           width={285}
@@ -87,30 +84,24 @@ const ExclusiveShop: React.FC = () => {
                   </div>
                   <div className="col-lg-9">
                     <div className="exclusive-text">
-                      <h3>
-                        <Link href="/shop/details/">
-                          The Gdudg
-                        </Link>
-                      </h3>
-                      <span>
-                        <del>$49.2</del> $47.2
-                      </span>
+                      <h3>Tailored Curriculum</h3>
+
                       <ul>
-                        <li>Director: Peter Spider</li>
-                        <li>Release: 01-01-2018</li>
+                        <li>
+                          Collaborate with HKI Media to deliver AICTE-approved
+                          courses aligned with current market demands.
+                        </li>
                       </ul>
-                      <button type="submit" className="default-btn">
-                        <i className="flaticon-shopping-cart"></i>Add To Cart
-                      </button>
                     </div>
                   </div>
                 </div>
 
                 <div className="row align-items-center">
                   <div className="col-lg-3">
-                    <div className="exclusive-list-img">
+                    <div className="">
                       <Link href="/shop/details/">
                         <Image
+                          className="custom_w"
                           src="/img/products/product3.jpg"
                           alt="Image"
                           width={285}
@@ -121,30 +112,24 @@ const ExclusiveShop: React.FC = () => {
                   </div>
                   <div className="col-lg-9">
                     <div className="exclusive-text">
-                      <h3>
-                        <Link href="/shop/details/">
-                          Summer Love
-                        </Link>
-                      </h3>
-                      <span>
-                        <del>$39.3</del> $37.3
-                      </span>
+                      <h3>Proven Content Monetization Strategies</h3>
+
                       <ul>
-                        <li>Director: Peter Spider</li>
-                        <li>Release: 01-01-2018</li>
+                        <li>
+                          Utilize HKI’s expertise to turn creative ventures into
+                          revenue-generating assets.
+                        </li>
                       </ul>
-                      <button type="submit" className="default-btn">
-                        <i className="flaticon-shopping-cart"></i>Add To Cart
-                      </button>
                     </div>
                   </div>
                 </div>
 
                 <div className="row align-items-center">
                   <div className="col-lg-3">
-                    <div className="exclusive-list-img">
+                    <div className="">
                       <Link href="/shop/details/">
                         <Image
+                          className="custom_w"
                           src="/img/products/product4.jpg"
                           alt="Image"
                           width={285}
@@ -156,21 +141,42 @@ const ExclusiveShop: React.FC = () => {
 
                   <div className="col-lg-9">
                     <div className="exclusive-text">
-                      <h3>
-                        <Link href="/shop/details/">
-                          Tattoo Life
-                        </Link>
-                      </h3>
-                      <span>
-                        <del>$55.1</del> $53.1
-                      </span>
+                      <h3>Exclusive Access to the Media Matrix App</h3>
+
                       <ul>
-                        <li>Director: Peter Spider</li>
-                        <li>Release: 01-01-2018</li>
+                        <li>
+                          Unlock unparalleled networking opportunities and
+                          global market reach.
+                        </li>
                       </ul>
-                      <button type="submit" className="default-btn">
-                        <i className="flaticon-shopping-cart"></i>Add To Cart
-                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div className="row align-items-center mb-0">
+                  <div className="col-lg-3">
+                    <div className="">
+                      <Link href="/shop/details/">
+                        <Image
+                          className="custom_w"
+                          src="/img/products/product4.jpg"
+                          alt="Image"
+                          width={285}
+                          height={400}
+                        />
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-9">
+                    <div className="exclusive-text">
+                      <h3>Support and Mentorship</h3>
+
+                      <ul>
+                        <li>
+                          Benefit from ongoing guidance by HKI Media’s industry
+                          veterans.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>

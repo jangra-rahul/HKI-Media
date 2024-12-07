@@ -54,9 +54,9 @@ export default function Home() {
 
       {/* <AwardWinningMovies /> */}
 
-      <LatestNews />
+      {/* <LatestNews /> */}
 
-      <Partners />
+      {/* <Partners /> */}
     </>
   );
 }

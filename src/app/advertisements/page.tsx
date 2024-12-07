@@ -9,13 +9,14 @@ import About3 from "../../components/HomeTwo/About";
 export default function Page() {
   return (
     <>
-      {/* <PageBanner
-        pageTitle="Entertainment"
+      <PageBanner
+        pageTitle="Advertisements"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Entertainment"
-        bgImg="/img/page-banner/page-banner3.jpg"
-      /> */}
+        activePageText="Advertisements"
+        bgImg="/img/page-banner/page-banner10.jpg"
+      />
+
       {/* <WeProvideServices />
       <AdvertisementsHero /> */}
 
