@@ -17,7 +17,7 @@ const AnimaticaBio: React.FC = () => {
           >
             <div className="row">
               <div className="col-lg-8">
-                <div className="about-content mb-0 pb-0">
+                <div className="about-content mb-0 pb-0 mt-3">
                   {/* <span>Vivi Bio</span> */}
                   <h2 className="text-white">
                     HKI Animatica, an innovative initiative by HKI Media

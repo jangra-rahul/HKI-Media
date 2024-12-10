@@ -111,7 +111,7 @@ const Navbar: React.FC = () => {
           <div className="sidebar-header">
             <div className="sidebar-logo">
               <Link href="/">
-                <Image src="/img/logo.png" alt="Image" width={90} height={33} />
+                <h2 className="mb-0">HKI Media</h2>
               </Link>
             </div>
 

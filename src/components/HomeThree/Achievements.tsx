@@ -71,10 +71,6 @@ const Achievements: React.FC = () => {
                         generation of media professionals through our robust
                         training programs.
                       </p>
-
-                      <Link href="#" className="default-btn">
-                        Learn More
-                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -101,10 +97,6 @@ const Achievements: React.FC = () => {
                         upskill over 10,200 students in film production and
                         animation this year.
                       </p>
-
-                      <Link href="#" className="default-btn">
-                        Learn More
-                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -130,10 +122,6 @@ const Achievements: React.FC = () => {
                         Recognized under Startup India, Skill India, and
                         affiliated with NSDC, MESC, UPSDM, TCIL, and ICASA.
                       </p>
-
-                      <Link href="#" className="default-btn">
-                        Learn More
-                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -166,10 +154,6 @@ const Achievements: React.FC = () => {
                         North India, we are empowering youth with futuristic
                         skills.
                       </p>
-
-                      <Link href="#" className="default-btn">
-                        Learn More
-                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-6">

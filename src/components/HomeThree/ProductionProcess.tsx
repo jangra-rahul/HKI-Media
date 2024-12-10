@@ -1,5 +1,5 @@
 "use client";
-  
+
 import React from "react";
 
 const ProductionProcess: React.FC = () => {
@@ -8,8 +8,7 @@ const ProductionProcess: React.FC = () => {
       <section className="production-process-area bg-color-two pt-100 pb-130">
         <div className="container">
           <div className="section-title white-title">
-            <span>Our Video</span>
-            <h2>Production Process</h2>
+            <h2>Our Video Production Process</h2>
           </div>
 
           <div className="row">

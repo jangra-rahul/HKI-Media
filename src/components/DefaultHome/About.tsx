@@ -21,14 +21,21 @@ const About: React.FC = () => {
           >
             <div className="row">
               <div className="col-lg-8">
-                <div className="about-content mb-0 pb-0">
+                <div className="about-content mb-0 pb-0 mt-0">
                   {/* <span>Vivi Bio</span> */}
                   <h2 className="">Product Shoots</h2>
                   <p className="">
-                    Through our high-quality product shoots, we capture the
-                    essence of every brand, presenting its features with
-                    stunning visuals designed to persuade and captivate
-                    audiences.
+                    Our high-quality product shoots are designed to capture the
+                    essence of every brand, presenting its unique features with
+                    stunning visuals that persuade and captivate. We focus on
+                    crafting imagery that highlights the finest details,
+                    bringing products to life in ways that resonate with target
+                    audiences. From concept development to execution, we ensure
+                    each shoot is tailored to showcase the brand’s personality,
+                    enhancing its appeal and market presence. By combining
+                    creative storytelling with technical expertise, we create
+                    visuals that not only attract attention but also inspire
+                    trust and loyalty.
                   </p>
 
                   <Link href="/contact" className="default-btn">

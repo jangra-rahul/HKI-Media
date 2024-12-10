@@ -11,14 +11,125 @@ const Testimonials: React.FC = () => {
     <>
       <div className="bg-black pb-100">
         <h2 className="text-center text-white">Our Partners</h2>
-        <div className="container">
+        <div className="container d-lg-flex d-none mt-4">
+          <div className="row">
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo1.jpg"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo2.png"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo3.jpg"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo4.webp"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo5.jpg"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo6.png"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo7.png"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo8.jpeg"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo9.jpeg"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo10.jpg"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo11.png"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+
+            <div className="testimonial-text col-2 ">
+              <Image
+                src="/img/partners/logo12.jpg"
+                alt="Image"
+                width={180}
+                height={100}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="container d-lg-none d-black">
           <Swiper
             // slidesPerView={6}
             spaceBetween={30}
             pagination={{
               clickable: true,
             }}
-            speed={1000}
+            speed={100}
             autoplay={{
               delay: 6500,
               disableOnInteraction: true,
@@ -171,7 +282,7 @@ const Testimonials: React.FC = () => {
             pagination={{
               clickable: true,
             }}
-            speed={1000}
+            speed={100}
             autoplay={{
               delay: 6500,
               disableOnInteraction: true,
@@ -264,6 +375,36 @@ const Testimonials: React.FC = () => {
                 />
               </div>
             </SwiperSlide>
+          </Swiper>
+          <Swiper
+            // slidesPerView={6}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            speed={100}
+            autoplay={{
+              delay: 6500,
+              disableOnInteraction: true,
+              pauseOnMouseEnter: true,
+            }}
+            breakpoints={{
+              0: {
+                slidesPerView: 2,
+              },
+              576: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 4,
+              },
+              992: {
+                slidesPerView: 6,
+              },
+            }}
+            modules={[Pagination, Autoplay]}
+            className="testimonial-wrap-two mt-4 align-items-center"
+          >
             <SwiperSlide>
               <div className="testimonial-text">
                 <Image
@@ -336,83 +477,6 @@ const Testimonials: React.FC = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        {/* <div className="container">
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
-            speed={1000}
-            autoplay={{
-              delay: 6500,
-              disableOnInteraction: true,
-              pauseOnMouseEnter: true,
-            }}
-            modules={[Pagination, Autoplay]}
-            className="testimonial-wrap-two"
-          >
-            <SwiperSlide>
-              <div className="testimonial-text">
-                <Image
-                  src="/img/clients/client1.jpg"
-                  alt="Image"
-                  width={75}
-                  height={75}
-                />
-                <i className="flaticon-quotation"></i>
-                <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.ipsum dolor sit amet”
-                </p>
-
-                <h3>Kara Goldberg</h3>
-                <span>Director of Festwork</span>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="testimonial-text">
-                <Image
-                  src="/img/clients/client2.jpg"
-                  alt="Image"
-                  width={75}
-                  height={75}
-                />
-                <i className="flaticon-quotation"></i>
-                <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.ipsum dolor sit amet”
-                </p>
-
-                <h3>Seth Ivan</h3>
-                <span>Movie Editor</span>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="testimonial-text">
-                <Image
-                  src="/img/clients/client3.jpg"
-                  alt="Image"
-                  width={75}
-                  height={75}
-                />
-                <i className="flaticon-quotation"></i>
-                <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.ipsum dolor sit amet”
-                </p>
-
-                <h3>Riley Gilbert</h3>
-                <span>Movie Composer</span>
-              </div>
-            </SwiperSlide>
-          </Swiper>
-        </div> */}
       </div>
     </>
   );

@@ -46,7 +46,7 @@ const AwardWinningMovies: React.FC = () => {
                 className={currentTab === "tab1" ? "current" : ""}
                 onClick={() => openTabSection("tab1")}
               >
-                <span>Film</span>
+                <span>Films</span>
               </li>
               <li onClick={() => openTabSection("tab2")}>
                 <span>Music</span>
@@ -88,11 +88,15 @@ const AwardWinningMovies: React.FC = () => {
                       <h2>Multilingual film production</h2>
                       <p>
                         We bring stories to life across languages, ensuring
-                        cultural relevance and emotional resonance
+                        cultural relevance and emotional resonance. Our
+                        multilingual film production bridges linguistic divides,
+                        connecting narratives with global audiences. From script
+                        adaptation to casting and dubbing, we celebrate
+                        diversity while preserving each story's essence.
                       </p>
 
-                      <Link href="#" className="default-btn">
-                        Learn More
+                      <Link href="/contact" className="default-btn">
+                        Contact Us
                       </Link>
                     </div>
                   </div>
@@ -212,11 +216,15 @@ const AwardWinningMovies: React.FC = () => {
                       <h2>200+ Music Videos</h2>
                       <p>
                         Having produced over 200 music videos, we showcase our
-                        ability to deliver high-impact visuals and sound.
+                        expertise in creating high-impact visuals that
+                        seamlessly harmonize with music, elevating storytelling
+                        through dynamic imagery. Our work captures the essence
+                        of every beat, delivering compelling experiences that
+                        resonate with audiences worldwide.
                       </p>
 
-                      <Link href="#" className="default-btn">
-                        Learn More
+                      <Link href="/contact" className="default-btn">
+                        Contact Us
                       </Link>
                     </div>
                   </div>
@@ -248,13 +256,16 @@ const AwardWinningMovies: React.FC = () => {
                       {/* <span>Vivi Bio</span> */}
                       <h2>Landmark Films</h2>
                       <p>
-                        Our work on landmark films such as Yamuna Putra Angad
-                        demonstrates our capacity to create content that leaves
-                        a mark on both regional and national landscapes.
+                        Our work on landmark films like Yamuna Putra Angad
+                        highlights our dedication to creating compelling stories
+                        that resonate across cultures. By blending powerful
+                        narratives with cinematic excellence, we leave a lasting
+                        mark on both regional and national landscapes, shaping
+                        memorable experiences for diverse audiences.
                       </p>
 
-                      <Link href="#" className="default-btn">
-                        Learn More
+                      <Link href="/contact" className="default-btn">
+                        Contact Us
                       </Link>
                     </div>
                   </div>
@@ -277,14 +288,17 @@ const AwardWinningMovies: React.FC = () => {
                   <div className="col-lg-6">
                     <div className="products-content">
                       {/* <span>Regional Studio Collaborations</span> */}
-                      <h2>Award Winning Movies “Once Upon a Time”</h2>
+                      <h2>Regional Studio Collaborations</h2>
                       <p>
-                        Having produced over 200 music videos, we showcase our
-                        ability to deliver high-impact visuals and sound.
+                        Through collaborations with regional studios, we deliver
+                        cost-effective productions that maintain the highest
+                        standards of quality. These partnerships allow us to
+                        create authentic, localized content while optimizing
+                        resources and enhancing creative output.
                       </p>
 
-                      <Link href="#" className="default-btn">
-                        Learn More
+                      <Link href="/contact" className="default-btn">
+                        Contact Us
                       </Link>
                     </div>
                   </div>
@@ -316,8 +330,8 @@ const AwardWinningMovies: React.FC = () => {
                         pre-production and post-production the images are.
                       </p>
 
-                      <Link href="#" className="default-btn">
-                        Learn More
+                      <Link href="/contact" className="default-btn">
+                        Contact Us
                       </Link>
                     </div>
                   </div>

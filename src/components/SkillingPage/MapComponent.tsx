@@ -33,7 +33,7 @@ const MapComponent = () => {
         <h2 className="text-center mb-5 text-white">OUR PRESENCE</h2>
         <div className="row">
           {/* Left-hand side Map */}
-          <div className="col-lg-6">
+          <div className="col-lg-6 bg-black">
             <div className="products card rounded-0 d-flex justify-content-center border-0">
               <Image
                 src="/img/Map_img.png" // Update with your map image URL
