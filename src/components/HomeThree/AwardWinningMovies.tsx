@@ -92,7 +92,7 @@ const AwardWinningMovies: React.FC = () => {
                         multilingual film production bridges linguistic divides,
                         connecting narratives with global audiences. From script
                         adaptation to casting and dubbing, we celebrate
-                        diversity while preserving each story's essence.
+                        diversity while preserving each storys essence.
                       </p>
 
                       <Link href="/contact" className="default-btn">

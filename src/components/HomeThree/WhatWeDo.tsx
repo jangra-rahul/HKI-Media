@@ -185,7 +185,7 @@ const WhatWeDo: React.FC = () => {
                   margin: "0 auto",
                 }}
               >
-                <img
+                <Image
                   src="/img/about-img1.jpg" // Replace with your illustration path
                   alt="Vision Illustration"
                   className="img-fluid rounded shadow-lg"
