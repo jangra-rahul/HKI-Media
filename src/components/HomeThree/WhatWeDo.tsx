@@ -97,14 +97,20 @@ const WhatWeDo: React.FC = () => {
                 <div className="col-lg-6 col-sm-6">
                   <div className="row flex-column">
                     <div className="col-12">
-                      <div className="what-we-do-item  border">
+                      <div
+                        data-aos="fade-up"
+                        className="what-we-do-item  border"
+                      >
                         <i className="flaticon-film-editing-1 "></i>
                         <h3>Government-sponsored schemes</h3>
                         <p>Tap into state-backed funding opportunities.</p>
                       </div>
                     </div>
                     <div className="col-lg-12 ">
-                      <div className="what-we-do-item border">
+                      <div
+                        data-aos="fade-up"
+                        className="what-we-do-item border"
+                      >
                         <i className="flaticon-film-editing "></i>
                         <h3>AICTE-approved diploma courses</h3>
                         <p>
@@ -117,7 +123,7 @@ const WhatWeDo: React.FC = () => {
                 </div>
 
                 <div className="col-lg-6 col-sm-6">
-                  <div className="what-we-do-item border">
+                  <div data-aos="fade-up" className="what-we-do-item border">
                     <i className="flaticon-advertising "></i>
                     <h3>Content monetization</h3>
                     <p>
@@ -186,19 +192,12 @@ const WhatWeDo: React.FC = () => {
                 }}
               >
                 <Image
+                  data-aos="fade-up"
                   src="/img/about-img1.jpg" // Replace with your illustration path
                   alt="Vision Illustration"
-                  className="img-fluid rounded shadow-lg"
-                  style={{
-                    transform: "scale(1.05)",
-                    transition: "transform 0.3s ease",
-                  }}
-                  //   onMouseEnter={(e) => {
-                  //     e.target.style.transform = "scale(1.1)";
-                  //   }}
-                  //   onMouseLeave={(e) => {
-                  //     e.target.style.transform = "scale(1.05)";
-                  //   }}
+                  className="img-fluid w-100 rounded shadow-lg"
+                  height={200}
+                  width={200}
                 />
                 {/* <div
                   className="position-absolute mb-2 bottom-0 start-50 translate-middle-x bg-warning text-dark p-3 rounded-pill fw-bold shadow"

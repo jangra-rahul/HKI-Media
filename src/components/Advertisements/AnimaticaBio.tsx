@@ -19,10 +19,10 @@ const AnimaticaBio: React.FC = () => {
               <div className="col-lg-8">
                 <div className="about-content mb-0 pb-0 mt-3">
                   {/* <span>Vivi Bio</span> */}
-                  <h2 className="text-white">
+                  <h2 data-aos="fade-up" className="text-white">
                     HKI Animatica, an innovative initiative by HKI Media
                   </h2>
-                  <p className="text-white">
+                  <p data-aos="fade-up" className="text-white">
                     Setting new benchmarks in the Animation, Visual Effects,
                     Gaming, Comics, and Extended Reality (AVGC-XR) industry.
                     Designed as a franchise-ready model, HKI Animatica combines
@@ -33,7 +33,11 @@ const AnimaticaBio: React.FC = () => {
                     to join this revolution by owning a piece of the future.
                   </p>
 
-                  <Link href="/contact" className="default-btn mt-3">
+                  <Link
+                    data-aos="fade-up"
+                    href="/contact"
+                    className="default-btn mt-3"
+                  >
                     Contact Us
                   </Link>
                 </div>

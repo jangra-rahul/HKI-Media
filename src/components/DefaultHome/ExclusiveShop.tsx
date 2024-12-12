@@ -40,7 +40,7 @@ const ExclusiveShop: React.FC = () => {
 
             <div className="col-lg-6">
               <div className="exclusive-video-list">
-                <div className="row align-items-center">
+                <div data-aos="fade-up" className="row align-items-center">
                   <div className="col-lg-3">
                     <div className="">
                       <Link href="/shop/details/">
@@ -68,7 +68,7 @@ const ExclusiveShop: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="row align-items-center">
+                <div data-aos="fade-up" className="row align-items-center">
                   <div className="col-lg-3">
                     <div className="">
                       <Link href="/shop/details/">
@@ -96,7 +96,7 @@ const ExclusiveShop: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="row align-items-center">
+                <div data-aos="fade-up" className="row align-items-center">
                   <div className="col-lg-3">
                     <div className="">
                       <Link href="/shop/details/">
@@ -124,7 +124,7 @@ const ExclusiveShop: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="row align-items-center">
+                <div data-aos="fade-up" className="row align-items-center">
                   <div className="col-lg-3">
                     <div className="">
                       <Link href="/shop/details/">
@@ -152,7 +152,7 @@ const ExclusiveShop: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                <div className="row align-items-center mb-0">
+                <div data-aos="fade-up" className="row align-items-center mb-0">
                   <div className="col-lg-3">
                     <div className="">
                       <Link href="/shop/details/">

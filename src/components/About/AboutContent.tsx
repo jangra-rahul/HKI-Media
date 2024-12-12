@@ -11,7 +11,7 @@ const AboutContent: React.FC = () => {
           <div className="row align-items-center">
             <h2 className="text-center">Our Services</h2>
             <div className="col-lg-4 col-md-6 mt-4">
-              <div className="card h-100">
+              <div data-aos="fade-up" className="card h-100">
                 <Image
                   className="w-100"
                   src="/img/about-grid/about-grid1.jpg"
@@ -31,7 +31,7 @@ const AboutContent: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mt-4">
-              <div className="card h-100">
+              <div data-aos="fade-up" className="card h-100">
                 <Image
                   className="w-100"
                   src="/img/about-grid/about-grid2.jpg"
@@ -50,7 +50,7 @@ const AboutContent: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mt-4">
-              <div className="card h-100">
+              <div data-aos="fade-up" className="card h-100">
                 <Image
                   className="w-100"
                   src="/img/about-grid/about-grid3.jpg"
@@ -70,7 +70,7 @@ const AboutContent: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mt-4">
-              <div className="card h-100">
+              <div data-aos="fade-up" className="card h-100">
                 <Image
                   className="w-100"
                   src="/img/about-grid/about-grid3.jpg"
@@ -90,7 +90,7 @@ const AboutContent: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mt-4">
-              <div className="card h-100">
+              <div data-aos="fade-up" className="card h-100">
                 <Image
                   className="w-100"
                   src="/img/about-grid/about-grid3.jpg"

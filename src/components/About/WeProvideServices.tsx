@@ -14,7 +14,10 @@ const WeProvideServices: React.FC = () => {
 
           <div className="row">
             <div className="col-lg-6 pe-md-4 col-sm-6 mt-4">
-              <div className="what-we-do-item p-4 text-start border position-relative h-100">
+              <div
+                data-aos="fade-up"
+                className="what-we-do-item p-4 text-start border position-relative h-100"
+              >
                 <i
                   className="flaticon-film-editing-1 d-md-flex d-none  position-absolute bg-black"
                   style={{
@@ -41,7 +44,10 @@ const WeProvideServices: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-6 ps-md-4 col-sm-6 mt-4">
-              <div className="what-we-do-item p-4 text-start border position-relative h-100">
+              <div
+                data-aos="fade-up"
+                className="what-we-do-item p-4 text-start border position-relative h-100"
+              >
                 <i
                   className="flaticon-film-editing d-md-flex d-none  position-absolute bg-black"
                   style={{
@@ -68,7 +74,10 @@ const WeProvideServices: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-6 pe-md-4 col-sm-6 mt-4">
-              <div className="what-we-do-item p-4 text-start border position-relative h-100">
+              <div
+                data-aos="fade-up"
+                className="what-we-do-item p-4 text-start border position-relative h-100"
+              >
                 <i
                   className="flaticon-advertising d-md-flex d-none  position-absolute bg-black"
                   style={{
@@ -95,7 +104,10 @@ const WeProvideServices: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-6 ps-md-4 col-sm-6 mt-4">
-              <div className="what-we-do-item p-4 text-start border position-relative h-100">
+              <div
+                data-aos="fade-up"
+                className="what-we-do-item p-4 text-start border position-relative h-100"
+              >
                 <i
                   className="flaticon-talk-show d-md-flex d-none  position-absolute bg-black"
                   style={{
@@ -122,7 +134,10 @@ const WeProvideServices: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-6 pe-md-4 col-sm-6 mt-4">
-              <div className="what-we-do-item p-4 text-start border position-relative h-100">
+              <div
+                data-aos="fade-up"
+                className="what-we-do-item p-4 text-start border position-relative h-100"
+              >
                 <i
                   className="flaticon-cinema d-md-flex d-none  position-absolute bg-black"
                   style={{
@@ -149,7 +164,10 @@ const WeProvideServices: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-6 ps-md-4 col-sm-6 mt-4">
-              <div className="what-we-do-item p-4 text-start border position-relative h-100">
+              <div
+                data-aos="fade-up"
+                className="what-we-do-item p-4 text-start border position-relative h-100"
+              >
                 <i
                   className="flaticon-music d-md-flex d-none position-absolute bg-black"
                   style={{
