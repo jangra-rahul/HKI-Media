@@ -23,6 +23,7 @@ import AOS from "aos";
 import Head from "next/head";
 
 // For all body text font
+
 const open_sans = Open_Sans({
   weight: ["300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
