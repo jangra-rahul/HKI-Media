@@ -37,10 +37,11 @@ const MaminBanner: React.FC = () => {
                 <div className="col-lg-6">
                   <div className="banner-text">
                     <h1>HKI Media</h1>
-                    <h4 className="text-white fw-normal">
-                      “We Breed Creative, We Bleed Creative,”
-                    </h4>
-                    <p className="text-white">
+                    <p className="text-white fw-normal fs-5">
+                      Incubating talent, nurturing revolutions - the great
+                      Indian digital leap
+                    </p>
+                    <p className="text-white fs-6">
                       Fasten your seatbelts—{" "}
                       <i>
                         we are here to shake up the industry, ignite

@@ -13,7 +13,7 @@ const About: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-content">
                 <span>HKI Media Bio</span>
-                <h2>
+                <h2 className="fs-1">
                   We Are HKI Media: Revolutionizing Creative Video Production
                 </h2>
                 <p>
@@ -25,8 +25,9 @@ const About: React.FC = () => {
                 <p className="mt-2">
                   Our expertise spans films, music, advertising, and immersive
                   AVGC-XR experiences, pushing creative boundaries to shape the
-                  future of storytelling. “We Breed Creative, We Bleed Creative”
-                  is not just our tagline—it’s our ethos.
+                  future of storytelling. Incubating talent, nurturing
+                  revolutions - the great Indian digital leap is not just our
+                  tagline—it’s our ethos.
                 </p>
 
                 <Link href="/about" className="default-btn three">

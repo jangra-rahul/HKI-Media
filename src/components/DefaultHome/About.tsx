@@ -10,7 +10,7 @@ const About: React.FC = () => {
       <div className="about-area ">
         <div className="container py-5 ">
           <div
-            className="about-content-wrap pt-5"
+            className="about-content-wrap  pt-5"
             style={{
               backgroundImage: `url(/img/ab_img.JPG)`,
               backgroundPosition: "100%",
@@ -45,7 +45,7 @@ const About: React.FC = () => {
               </div>
 
               <div className="col-lg-4">
-                <div className="about-img">
+                <div className="about-img position-relative">
                   <Image
                     src="/img/ab_img.JPG"
                     alt="Image"
