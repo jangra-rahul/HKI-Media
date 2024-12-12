@@ -113,7 +113,7 @@ const About: React.FC = () => {
                 height={346}
               /> */}
               <div className="container d-md-flex d-none">
-                <div className="row  g-3 d_grid">
+                {/* <div className="row  g-3 d_grid">
                   <div
                     data-aos="zoom-in-up"
                     className="about-grid-img mb-0 grid1"
@@ -194,7 +194,15 @@ const About: React.FC = () => {
                       height={246}
                     />
                   </div>
-                </div>
+                </div> */}
+                <Image
+                  // style={{ height: "500px" }}
+                  className="w-100"
+                  src="/img/group_img.png"
+                  alt="Image"
+                  width={295}
+                  height={500}
+                />
               </div>
               <div className="d-md-none container d-block">
                 {" "}

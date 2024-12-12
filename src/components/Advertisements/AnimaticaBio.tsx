@@ -13,6 +13,10 @@ const AnimaticaBio: React.FC = () => {
             className="about-content-wrap"
             style={{
               backgroundImage: `url(/img/about-img1.jpg)`,
+              backgroundPosition: "100%",
+              backgroundRepeat: "no-repeat",
+              height: "522px",
+              backgroundSize: "750px",
             }}
           >
             <div className="row">

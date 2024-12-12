@@ -82,71 +82,87 @@ const ProductionProcess: React.FC = () => {
             {/* Step 2 */}
             <div className="timeline-item">
               <div data-aos="fade-up" className="timeline-content">
-                <div className="d-flex justify-content-end">
-                  <div className="icon-container">
-                    <i className="flaticon-research"></i>
+                <div className="d-flex align-items-center gap-3 flex-row-reverse">
+                  <div className="d-flex justify-content-end">
+                    <div className="icon-container">
+                      <i className="flaticon-research"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="mb-1">Project Research</h4>
+                    <p>Diving deep to understand goals and requirements.</p>
                   </div>
                 </div>
-                <h4>Project Research</h4>
-                <p>Diving deep to understand your goals and requirements.</p>
               </div>
             </div>
 
             {/* Step 3 */}
             <div data-aos="fade-up" className="timeline-item">
-              <div className="timeline-content">
+              <div className="timeline-content d-flex align-items-center gap-3 ">
                 <div className="icon-container">
                   <i className="flaticon-script"></i>
                 </div>
-                <h4>Script & Creative</h4>
-                <p>Crafting scripts and designing creative elements.</p>
+                <div>
+                  <h4 className="mb-1">Script & Creative</h4>
+                  <p>Crafting scripts and designing creative elements.</p>
+                </div>
               </div>
             </div>
 
             {/* Step 4 */}
             <div data-aos="fade-up" className="timeline-item">
-              <div className="timeline-content">
+              <div className="timeline-content d-flex align-items-center gap-3 flex-row-reverse">
                 <div className="d-flex justify-content-end">
                   <div className="icon-container">
                     <i className="flaticon-video"></i>
                   </div>
                 </div>
-                <h4>Editing & Post-production</h4>
-                <p>Polishing content to perfection with editing and effects.</p>
+                <div>
+                  <h4 className="mb-1">Editing & Post-production</h4>
+                  <p>
+                    Polishing content to perfection with editing and effects.
+                  </p>
+                </div>
               </div>
             </div>
 
             {/* Step 5 */}
             <div data-aos="fade-up" className="timeline-item">
-              <div className="timeline-content">
+              <div className="timeline-content d-flex align-items-center gap-3 ">
                 <div className="icon-container">
                   <i className="flaticon-dubbing"></i>
                 </div>
-                <h4>Voice-over</h4>
-                <p>Adding impactful voiceovers to enhance the message.</p>
+                <div>
+                  <h4 className="mb-1">Voice-over</h4>
+                  <p>Adding impactful voiceovers to enhance the message.</p>
+                </div>
               </div>
             </div>
 
             {/* Step 6 */}
             <div data-aos="fade-up" className="timeline-item">
-              <div className="timeline-content">
+              <div className="timeline-content d-flex align-items-center gap-3 flex-row-reverse">
                 <div className="d-flex justify-content-end">
                   <div className="icon-container">
                     <i className="flaticon-mirror"></i>
                   </div>
                 </div>
-                <h4>Style Frames</h4>
-                <p>Creating visual references for final production.</p>
+                <div>
+                  <h4 className="mb-0">Style Frames</h4>
+                  <p>Creating visual references for final production.</p>
+                </div>
               </div>
             </div>
             <div data-aos="fade-up" className="timeline-item">
-              <div className="timeline-content">
+              <div className="timeline-content d-flex align-items-center gap-3 ">
                 <div className="icon-container ">
                   <i className="flaticon-help"></i>
                 </div>
 
-                <h4>Technical Support</h4>
-                <p>Ensuring all systems and tools are set for production.</p>
+                <div>
+                  <h4 className="mb-1">Technical Support</h4>
+                  <p>Ensuring all systems and tools are set for production.</p>
+                </div>
               </div>
             </div>
           </div>
