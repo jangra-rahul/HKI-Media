@@ -23,7 +23,7 @@ const About: React.FC = () => {
                   game-changing startup with our sights set high, transforming
                   the Indian media landscape with bold innovation and visionary
                   thinking. With our finger on the pulse of the industry, we're
-                  crafting a dynamic business blueprint that's got everyone
+                  crafting a dynamic business blueprint thats got everyone
                   buzzing.
                 </p>
                 <p className="pt-2">
