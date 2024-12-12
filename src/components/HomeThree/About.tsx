@@ -22,7 +22,7 @@ const About: React.FC = () => {
                   Sparking a revolution in the media industry. Were a
                   game-changing startup with our sights set high, transforming
                   the Indian media landscape with bold innovation and visionary
-                  thinking. With our finger on the pulse of the industry, we're
+                  thinking. With our finger on the pulse of the industry, were
                   crafting a dynamic business blueprint thats got everyone
                   buzzing.
                 </p>
