@@ -202,6 +202,7 @@ const UpcomingMovies: React.FC = () => {
           <div className="row justify-content-center">
             <div className="col-md-3 col-sm-6 mt-4">
               <Image
+                data-aos="zoom-in-up"
                 src="/img/latest-trailer/latest-trailer1.jpg"
                 alt="Image"
                 width={285}
@@ -211,6 +212,7 @@ const UpcomingMovies: React.FC = () => {
             </div>
             <div className="col-md-3 col-sm-6 mt-4">
               <Image
+                data-aos="zoom-in-up"
                 src="/img/latest-trailer/latest-trailer2.jpg"
                 alt="Image"
                 width={285}
@@ -220,6 +222,7 @@ const UpcomingMovies: React.FC = () => {
             </div>
             <div className="col-md-3 col-sm-6 mt-4">
               <Image
+                data-aos="zoom-in-up"
                 src="/img/latest-trailer/latest-trailer3.jpg"
                 alt="Image"
                 width={285}

@@ -39,7 +39,7 @@ const About: React.FC = () => {
             <div className="col-lg-6">
               <div className="row">
                 <div className="col-lg-6 col-sm-6 p-0">
-                  <div className="about-grid-img">
+                  <div data-aos="zoom-in-up" className="about-grid-img">
                     <Image
                       src="/img/about-grid/about-grid1.jpg"
                       alt="Image"
@@ -49,7 +49,7 @@ const About: React.FC = () => {
                   </div>
                 </div>
                 <div className="col-lg-6 col-sm-6 p-0">
-                  <div className="about-grid-img">
+                  <div data-aos="zoom-in-up" className="about-grid-img">
                     <Image
                       src="/img/about-grid/about-grid2.jpg"
                       alt="Image"
@@ -59,7 +59,10 @@ const About: React.FC = () => {
                   </div>
                 </div>
                 <div className="col-lg-6 col-sm-6 p-0">
-                  <div className="about-grid-img m-rs mb-0">
+                  <div
+                    data-aos="zoom-in-up"
+                    className="about-grid-img m-rs mb-0"
+                  >
                     <Image
                       src="/img/about-grid/about-grid3.jpg"
                       alt="Image"
@@ -69,7 +72,7 @@ const About: React.FC = () => {
                   </div>
                 </div>
                 <div className="col-lg-6 col-sm-6 p-0">
-                  <div className="about-grid-img mb-0">
+                  <div data-aos="zoom-in-up" className="about-grid-img mb-0">
                     <Image
                       src="/img/about-grid/about-grid4.jpg"
                       alt="Image"

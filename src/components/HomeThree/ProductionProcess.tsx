@@ -81,7 +81,7 @@ const ProductionProcess: React.FC = () => {
 
             {/* Step 2 */}
             <div className="timeline-item">
-              <div className="timeline-content">
+              <div data-aos="fade-up" className="timeline-content">
                 <div className="d-flex justify-content-end">
                   <div className="icon-container">
                     <i className="flaticon-research"></i>
@@ -93,7 +93,7 @@ const ProductionProcess: React.FC = () => {
             </div>
 
             {/* Step 3 */}
-            <div className="timeline-item">
+            <div data-aos="fade-up" className="timeline-item">
               <div className="timeline-content">
                 <div className="icon-container">
                   <i className="flaticon-script"></i>
@@ -104,7 +104,7 @@ const ProductionProcess: React.FC = () => {
             </div>
 
             {/* Step 4 */}
-            <div className="timeline-item">
+            <div data-aos="fade-up" className="timeline-item">
               <div className="timeline-content">
                 <div className="d-flex justify-content-end">
                   <div className="icon-container">
@@ -117,7 +117,7 @@ const ProductionProcess: React.FC = () => {
             </div>
 
             {/* Step 5 */}
-            <div className="timeline-item">
+            <div data-aos="fade-up" className="timeline-item">
               <div className="timeline-content">
                 <div className="icon-container">
                   <i className="flaticon-dubbing"></i>
@@ -128,7 +128,7 @@ const ProductionProcess: React.FC = () => {
             </div>
 
             {/* Step 6 */}
-            <div className="timeline-item">
+            <div data-aos="fade-up" className="timeline-item">
               <div className="timeline-content">
                 <div className="d-flex justify-content-end">
                   <div className="icon-container">
@@ -139,7 +139,7 @@ const ProductionProcess: React.FC = () => {
                 <p>Creating visual references for final production.</p>
               </div>
             </div>
-            <div className="timeline-item">
+            <div data-aos="fade-up" className="timeline-item">
               <div className="timeline-content">
                 <div className="icon-container ">
                   <i className="flaticon-help"></i>

@@ -44,8 +44,8 @@ const Navbar: React.FC = () => {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg">
               <Link href="/" className="navbar-brand">
-                {/* <Image src="/img/logo.png" alt="logo" width={90} height={33} /> */}
-                <h2 className="mb-0">HKI Media</h2>
+                <Image src="/img/logo1.png" alt="logo" width={70} height={23} />
+                {/* <h2 className="mb-0">HKI Media</h2> */}
               </Link>
 
               <button

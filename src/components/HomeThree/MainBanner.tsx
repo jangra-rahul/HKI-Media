@@ -36,12 +36,12 @@ const MaminBanner: React.FC = () => {
 
                 <div className="col-lg-6">
                   <div className="banner-text">
-                    <h1>HKI Media</h1>
-                    <p className="text-white fw-normal fs-5">
+                    <h1 data-aos="fade-up">HKI Media</h1>
+                    <p data-aos="fade-up" className="text-white fw-normal fs-5">
                       Incubating talent, nurturing revolutions - the great
                       Indian digital leap
                     </p>
-                    <p className="text-white fs-6">
+                    <p data-aos="fade-up" className="text-white fs-6">
                       Fasten your seatbelts—{" "}
                       <i>
                         we are here to shake up the industry, ignite
