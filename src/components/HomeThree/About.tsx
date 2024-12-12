@@ -19,7 +19,7 @@ const About: React.FC = () => {
                   the Media Industry
                 </h2>
                 <p>
-                  Sparking a revolution in the media industry. We’re a
+                  Sparking a revolution in the media industry. Were a
                   game-changing startup with our sights set high, transforming
                   the Indian media landscape with bold innovation and visionary
                   thinking. With our finger on the pulse of the industry, we're
@@ -29,7 +29,7 @@ const About: React.FC = () => {
                 <p className="pt-2">
                   So, fasten your seatbelts—HKI Media is here to shake up the
                   industry, ignite imaginations, and create a legacy of
-                  unforgettable stories, one creative masterpiece at a time.
+                  unforgettable stories, one creative masterpiece at a time.
                 </p>
 
                 <button className="default-btn three">Learn More</button>
