@@ -50,10 +50,7 @@ export default function RootLayout({
 }>) {
   useEffect(() => {
     AOS.init({
-      duration: 1200, // Animation duration
-      easing: "ease-in-out", // Easing
       once: true, // Animation will only happen once
-      offset: 100, // Trigger animation after 100px scroll
     });
   }, []);
   return (
