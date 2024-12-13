@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="about-img">
+              <div data-aos="fade-up" className="about-img">
                 {/* <Image
                   src="/img/about-img-two.jpg"
                   alt="Image"
@@ -29,15 +29,21 @@ const About: React.FC = () => {
             </div>
             <div className="col-lg-6">
               <div className="about-content">
-                <h2 className="text-white">Brand Advertisements</h2>
-                <p className="text-white">
+                <h2 data-aos="fade-up" className="text-white">
+                  Brand Advertisements
+                </h2>
+                <p data-aos="fade-up" className="text-white">
                   We craft narratives that connect with audiences on a deeper
                   level, blending creativity with cultural relevance to deliver
                   unforgettable advertising campaigns that leave lasting
                   impressions.
                 </p>
 
-                <Link href="/contact" className="default-btn">
+                <Link
+                  data-aos="fade-up"
+                  href="/contact"
+                  className="default-btn"
+                >
                   Contact Us
                 </Link>
               </div>
@@ -47,26 +53,32 @@ const About: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-content">
                 {/* <span>Vivi Bio</span> */}
-                <h2 className="text-white">Government Ads</h2>
-                <p className="text-white">
+                <h2 data-aos="fade-up" className="text-white">
+                  Government Ads
+                </h2>
+                <p data-aos="fade-up" className="text-white">
                   With a deep understanding of public initiatives, we design and
                   execute impactful campaigns that foster awareness and drive
                   action on a national scale.
                 </p>
-                <p className="text-white">
+                <p data-aos="fade-up" className="text-white">
                   Highlight: Successful campaigns with top-tier clients such as
                   Punjab Kings, AVPL Drones, and government agencies highlight
                   our capability to deliver excellence across sectors.
                 </p>
 
-                <Link href="/contact" className="default-btn">
+                <Link
+                  data-aos="fade-up"
+                  href="/contact"
+                  className="default-btn"
+                >
                   Contact Us
                 </Link>
               </div>
             </div>
 
             <div className="col-lg-6">
-              <div className="about-img">
+              <div data-aos="fade-up" className="about-img">
                 <Image
                   src="/img/about-img-three.jpg"
                   alt="Image"

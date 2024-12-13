@@ -7,7 +7,7 @@ import Image from "next/image";
 const About: React.FC = () => {
   return (
     <>
-      <div className="about-area ">
+      <div className="about-area bg-black">
         <div className="container py-5 ">
           <div
             className="about-content-wrap  pt-5"
@@ -23,8 +23,10 @@ const About: React.FC = () => {
               <div className="col-lg-8">
                 <div className="about-content mb-0 pb-0 mt-0">
                   {/* <span>Vivi Bio</span> */}
-                  <h2 className="">Product Shoots</h2>
-                  <p className="">
+                  <h2 data-aos="fade-up" className="text-white">
+                    Product Shoots
+                  </h2>
+                  <p data-aos="fade-up" className="text-white">
                     Our high-quality product shoots are designed to capture the
                     essence of every brand, presenting its unique features with
                     stunning visuals that persuade and captivate. We focus on
@@ -38,7 +40,11 @@ const About: React.FC = () => {
                     trust and loyalty.
                   </p>
 
-                  <Link href="/contact" className="default-btn">
+                  <Link
+                    data-aos="fade-up"
+                    href="/contact"
+                    className="default-btn"
+                  >
                     Contact Us
                   </Link>
                 </div>
@@ -47,6 +53,7 @@ const About: React.FC = () => {
               <div className="col-lg-4">
                 <div className="about-img position-relative">
                   <Image
+                    data-aos="fade-up"
                     src="/img/ab_img.JPG"
                     alt="Image"
                     width={810}

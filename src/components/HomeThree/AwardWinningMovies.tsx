@@ -166,7 +166,7 @@ const AwardWinningMovies: React.FC = () => {
                         <SwiperSlide>
                           <div className="latest-trailer-item">
                             <Image
-                              src="/img/latest-trailer/song1.jpg"
+                              src="/img/latest-trailer/song4.jpg"
                               alt="Image"
                               width={285}
                               height={400}
@@ -177,7 +177,7 @@ const AwardWinningMovies: React.FC = () => {
                         <SwiperSlide>
                           <div className="latest-trailer-item">
                             <Image
-                              src="/img/latest-trailer/song2.jpg"
+                              src="/img/latest-trailer/song3.jpg"
                               alt="Image"
                               width={285}
                               height={400}
@@ -188,7 +188,7 @@ const AwardWinningMovies: React.FC = () => {
                         <SwiperSlide>
                           <div className="latest-trailer-item">
                             <Image
-                              src="/img/latest-trailer/song6.jpg"
+                              src="/img/latest-trailer/song4.jpg"
                               alt="Image"
                               width={285}
                               height={400}
