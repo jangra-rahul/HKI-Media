@@ -50,8 +50,10 @@ export default function RootLayout({
 }>) {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      once: true, // Animation will only happen once
+      offset: 0, // Jab section viewport ke bilkul top pe aaye, tab animation start ho
+      duration: 1000, // Animation ki duration
+      once: true, // Animation sirf ek baar chalegi
+      easing: "ease-in-out",
     });
   }, []);
   return (
