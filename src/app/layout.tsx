@@ -50,6 +50,7 @@ export default function RootLayout({
 }>) {
   useEffect(() => {
     AOS.init({
+      duration: 1000,
       once: true, // Animation will only happen once
     });
   }, []);
